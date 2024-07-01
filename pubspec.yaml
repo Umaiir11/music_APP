@@ -1,0 +1,44 @@
+name: firebasecud
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  get:
+  firebase_core: ^2.31.1
+  cloud_firestore: ^4.17.4
+  random_string: ^2.3.1
+  flutter_slidable: ^3.1.0
+  file_picker:
+  audioplayers: ^6.0.0
+
+  google_sign_in:
+  #firebase
+  firebase_auth:
+  firebase_crashlytics:
+  firebase_database:
+  firebase_storage:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^3.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
